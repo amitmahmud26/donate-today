@@ -129,6 +129,8 @@ p {
     align-items: center;
     display: flex;
     flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 2px 2px 30px rgba(128, 128, 128, 0.37);
 }
 .ah-sunnah-foundation img{
     width: 285px;
@@ -141,12 +143,14 @@ p {
     width: 24%;
     margin-left: 2%;
     margin-right: 2%;
-    background-color: #95023d52;
+    background-color: #cc447a52;
     padding: 60px 20px;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 2px 2px 30px rgba(128, 128, 128, 0.37);
 }
 .red-rover img{
     width: 285px;
@@ -164,6 +168,8 @@ p {
     align-items: center;
     display: flex;
     flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 2px 2px 30px rgba(128, 128, 128, 0.37);
 }
 .ek-takar-ahar img{
     width: 285px;
