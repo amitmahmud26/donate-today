@@ -108,10 +108,48 @@ p {
     background-color: #FFF4D6;
     padding: 60px 20px;
 }
+.more-foundations{
+    text-align: center;
+    margin-bottom: 100px;
+}
+/* .foundations-hyperlink{
+    text-decoration: none;
+} */
+.foundations{
+    display: flex;
+    margin-bottom: 100px;
+}
 
+.ah-sunnah-foundation{
+    width: 24%;
+    margin-left: 10%;
+    background-color: #8bc54057;
+    padding: 60px 20px;
+}
+.ah-sunnah-foundation img{
+    width: 285px;
+}
 
+.red-rover{
+    width: 24%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: #95023d52;
+    padding: 60px 20px;
+}
+.red-rover img{
+    width: 285px;
+}
 
-
+.ek-takar-ahar{
+    width: 24%;
+    margin-right: 10%;
+    background-color: #eeeaeafb;
+    padding: 60px 20px;
+}
+.ek-takar-ahar img{
+    width: 285px;
+}
 .get-my-updates{
     text-align: center;
     margin-bottom: 50px;
@@ -120,6 +158,8 @@ p {
     display: flex;
     text-align: center;
     margin-bottom: 120px;
+    justify-content: center;
+    align-items: center;
 }
 
 .mb-left {
@@ -127,6 +167,9 @@ p {
 }
 
 .mail-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50%;
     background-color: #FFF4D6;
     padding-top: 85px;
@@ -138,16 +181,20 @@ p {
     width: 260px;
     height: 45px;
     background-color: #D9D9D9;
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 0;
     padding-left: 20px;
 }
 .subscribe-button{
-    border-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     border: none;
     background-color: #FF5959;
     width: 150px;
     height: 45px;
     color: white;
+    padding: 0;
 }
 .mb-right {
     width: 25%;
@@ -171,3 +218,9 @@ p {
     text-decoration: none;
     font-size: 14px;
     font-weight: 100;
+}
+.footer-color{
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
