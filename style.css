@@ -54,6 +54,7 @@ p {
 }
 .one-fifth{
     width: 10%;
+    margin: 10px;
 }
 .one-fifth h1{
     font-size: 27px;
@@ -62,9 +63,13 @@ p {
 .padding-taka{
     width: 25%;
 }
+.bgc-taka{
+    background-color: #FAFAFA;
+    border-radius: 5px;
+}
 .border-taka {
     border: 2px solid #f500005b;
-    background-color: #e6a1a175;
+    background-color: #FFEEEE;
     border-radius: 5px;
 }
 .donate-now{
@@ -110,11 +115,8 @@ p {
 }
 .more-foundations{
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
-/* .foundations-hyperlink{
-    text-decoration: none;
-} */
 .foundations{
     display: flex;
     margin-bottom: 100px;
@@ -128,8 +130,11 @@ p {
 }
 .ah-sunnah-foundation img{
     width: 285px;
+    height: 55px;
 }
-
+.ah-sunnah-foundation p{
+    height: 100px;
+}
 .red-rover{
     width: 24%;
     margin-left: 2%;
@@ -139,8 +144,11 @@ p {
 }
 .red-rover img{
     width: 285px;
+    height: 55px;
 }
-
+.red-rover p{
+    height: 100px;
+}
 .ek-takar-ahar{
     width: 24%;
     margin-right: 10%;
@@ -149,6 +157,10 @@ p {
 }
 .ek-takar-ahar img{
     width: 285px;
+    height: 55px;
+}
+.ek-takar-ahar p{
+    height: 100px;
 }
 .get-my-updates{
     text-align: center;
